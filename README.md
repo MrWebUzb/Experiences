@@ -7,3 +7,10 @@
 ```bash
 sudo python3 -OEs aptsources-cleanup.pyz
 ```
+
+
+#### Enabling apache rewrite mod after installation in linux:
+
+```bash
+a2enmod rewrite
+```
