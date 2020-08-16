@@ -14,3 +14,10 @@ sudo python3 -OEs aptsources-cleanup.pyz
 ```bash
 a2enmod rewrite
 ```
+
+#### Automating git pull requests
+
+```bash
+git config credential.helper store
+while true; do git pull; sleep 5; done
+```
